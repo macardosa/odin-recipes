@@ -1,4 +1,144 @@
-img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(236, 231, 231, 0.828);
+    color: rgb(18, 17, 17);
+}
+
+.page {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page.recipe {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "IBM Plex Serif", serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.0rem;
+    padding: 80px;
+}
+
+#heading-index {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 80px;
+    padding: 60px;
+}
+
+.recipe-box {
+    width: 805px;
+    margin-left: auto;
+}
+
+.recipe-box ul {
+    list-style-type: none;
+}
+
+.recipe-box li {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-item {
+    position: relative;
+    padding: 25px 0;
+}
+
+.recipe-item img {
+    height: 100px;
+    width: 140px;
+    float: flex;
+    position: absolute;
+    left: -160px;
+    top: -10px;
+}
+
+.recipe-item a {
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+}
+
+.recipe-image {
     display: block;
-    max-width: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    font-size: 3.0rem;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    border-bottom: 1px black solid;
+    padding-bottom: 10px;
+}
+
+.description h2 {
+    margin-top: 20px;
+}
+
+.page p,
+.page li {
+    font-family: inherit;
+    font-size: 1.3rem;
+}
+
+.description p {
+    margin-bottom: 20px;
+    line-height: 1.7rem;
+}
+
+.description p :last-of-type {
+    margin-bottom: 0;
+}
+
+.ingredients ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+.ingredients li {
+    padding: 3px 0;
+}
+
+.steps ol {
+    padding-left: 30px;
+    list-style-type: decimal;
+}
+
+.steps li {
+    line-height: 1.9rem;
+}
+
+.footer {
+    /* background-color: bisque; */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: teal;
 }
